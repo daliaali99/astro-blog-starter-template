@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="شركة عزل خزانات بالرياض - خدمات عزل خزانات المياه بأحدث التقنيات وأفضل الأسعار. اتصل الآن للحصول على خدمة احترافية">
+    <meta name="keywords" content="عزل خزانات بالرياض, شركة عزل خزانات, عزل خزانات المياه, عزل الخزانات">
+    <title>عزل خزانات بالرياض - خدمات عزل خزانات المياه الأفضل</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.8;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: fadeInDown 1s ease;
+        }
+        
+        .subtitle {
+            font-size: 1.3em;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .content-box {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            animation: fadeIn 1.5s ease;
+        }
+        
+        h2 {
+            color: #1e3c72;
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        h3 {
+            color: #2a5298;
+            font-size: 1.5em;
+            margin: 25px 0 15px 0;
+        }
+        
+        p {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .service-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 2px solid transparent;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+            border-color: #667eea;
+        }
+        
+        .service-card h3 {
+            color: #1e3c72;
+            margin-bottom: 15px;
+        }
+        
+        .service-icon {
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+        
+        .features-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .features-list li {
+            background: #f0f4f8;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-right: 4px solid #667eea;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        
+        .features-list li:hover {
+            background: #e1e8ed;
+            transform: translateX(-5px);
+        }
+        
+        .features-list li::before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.3em;
+            margin-left: 10px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 20px 0;
+            transition: all 0.3s ease;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.6);
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 25px 0;
+            border-right: 5px solid #ff9966;
+        }
+        
+        footer {
+            background: #1e3c72;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-radius: 15px;
+            margin-top: 30px;
+        }
+        
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .content-box {
+                padding: 25px;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏢 عزل خزانات بالرياض</h1>
+            <p class="subtitle">أفضل خدمات عزل خزانات المياه في الرياض بأحدث التقنيات العالمية</p>
+        </header>
+
+        <div class="content-box">
+            <h2>🌟 لماذا عزل الخزانات ضروري؟</h2>
+            <p>
+                عزل خزانات المياه من الخدمات الأساسية التي لا غنى عنها للحفاظ على صحة وسلامة الأسرة. 
+                في مدينة الرياض، حيث درجات الحرارة المرتفعة صيفاً والمنخفضة شتاءً، يصبح عزل الخزانات 
+                أمراً في غاية الأهمية لضمان نقاء المياه وسلامتها.
+            </p>
+            
+            <div class="highlight-box">
+                <h3>⚠️ مخاطر عدم عزل الخزانات:</h3>
+                <ul class="features-list">
+                    <li>تسرب المياه وهدر كميات كبيرة</li>
+                    <li>تلوث المياه بالبكتيريا والطحالب</li>
+                    <li>تشققات الخزان بسبب التغيرات الحرارية</li>
+                    <li>ارتفاع فواتير المياه</li>
+                    <li>تلف الخزان على المدى البعيد</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>🛠️ خدماتنا في عزل الخزانات</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💧</div>
+                    <h3>العزل المائي</h3>
+                    <p>حماية كاملة ضد تسربات المياه باستخدام أفضل مواد العزل العالمية</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🌡️</div>
+                    <h3>العزل الحراري</h3>
+                    <p>حفظ المياه بدرجة حرارة مناسبة وحماية من الحرارة الشديدة</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔍</div>
+                    <h3>الفحص والصيانة</h3>
+                    <p>فحص دوري شامل وصيانة للخزانات لضمان كفاءتها</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>التنظيف والتعقيم</h3>
+                    <p>تنظيف عميق وتعقيم شامل للخزانات بمواد صحية آمنة</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-box">
+            <h2>✅ مميزات خدماتنا</h2>
+            <ul class="features-list">
+                <li>فريق عمل مدرب ومحترف بخبرة تزيد عن 15 عاماً</li>
+                <li>استخدام أحدث التقنيات وأفضل المواد العازلة المعتمدة</li>
+                <li>أسعار تنافسية وعروض خاصة طوال العام</li>
+                <li>ضمان شامل على جميع أعمال العزل</li>
+                <li>خدمة عملاء متاحة 24/7</li>
+                <li>سرعة في الاستجابة والتنفيذ</li>
+                <li>التزام بمعايير الجودة والسلامة</li>
+            </ul>
+        </div>
+
+        <div class="content-box">
+            <h2>📍 نطاق خدماتنا في الرياض</h2>
+            <p>نقدم خدمات عزل الخزانات في جميع أحياء الرياض بما في ذلك:</p>
+            <p style="background: #f5f7fa; padding: 20px; border-radius: 10px; margin-top: 15px;">
+                الملقا • العليا • النخيل • الملز • السليمانية • الياسمين • الربوة • الروضة • 
+                المروج • النرجس • الحمراء • الصحافة • الواحة • قرطبة • الورود • وجميع أحياء الرياض
+            </p>
+        </div>
+
+        <div class="content-box" style="text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+            <h2 style="color: white; border-color: white;">📞 احصل على خدمة احترافية الآن</h2>
+            <p style="color: white; font-size: 1.2em; margin: 20px 0;">
+                لا تتردد في التواصل معنا للحصول على استشارة مجانية وعرض سعر مناسب
+            </p>
+            <a href="https://eawazilalwataniuh.com/شركة-عزل-خزانات-المياة-بالرياض/" class="cta-button" style="background: white; color: #667eea;">
+                🌐 زيارة موقعنا الإلكتروني
+            </a>
+        </div>
+
+        <footer>
+            <p style="font-size: 1.2em; margin-bottom: 10px;">
+                <strong>عزل خزانات بالرياض - شريكك الموثوق لحماية خزانات المياه</strong>
+            </p>
+            <p>جميع الحقوق محفوظة © 2024</p>
+            <p style="margin-top: 15px;">
+                <a href="https://eawazilalwataniuh.com/شركة-عزل-خزانات-المياة-بالرياض/" 
+                   style="color: #ffecd2; text-decoration: none; font-weight: bold;">
+                    www.eawazilalwataniuh.com
+                </a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
